@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>06/03/2018 - 14:50:13</Generatedon>
+    <Parser>OpenCoverParser</Parser>
+    <Assemblies>2</Assemblies>
+    <Classes>3</Classes>
+    <Files>3</Files>
+    <Coveredlines>26</Coveredlines>
+    <Uncoveredlines>1</Uncoveredlines>
+    <Coverablelines>27</Coverablelines>
+    <Totallines>59</Totallines>
+    <Linecoverage>96.2%</Linecoverage>
+    <Branchcoverage>100%</Branchcoverage>
+  </Summary>
+  <Assemblies>
+    <Assembly name="FM.Metricas.Application" classes="2" coverage="100" coveredlines="19" coverablelines="19" totallines="42" branchcoverage="100" coveredbranches="2" totalbranches="2">
+      <Class name="FM.Metricas.Application.Input.PessoaInput" coverage="100" coveredlines="4" coverablelines="4" totallines="14" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="FM.Metricas.Application.PessoaAppService" coverage="100" coveredlines="15" coverablelines="15" totallines="28" branchcoverage="100" coveredbranches="2" totalbranches="2" />
+    </Assembly>
+    <Assembly name="FM.Metricas.Domain" classes="1" coverage="87.5" coveredlines="7" coverablelines="8" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="FM.Metricas.Domain.Pessoa" coverage="87.5" coveredlines="7" coverablelines="8" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+  </Assemblies>
+</CoverageReport>

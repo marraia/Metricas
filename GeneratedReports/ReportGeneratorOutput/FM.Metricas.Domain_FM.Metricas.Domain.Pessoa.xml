@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="FM.Metricas.Domain.Pessoa">
+  <Summary>
+    <Class>FM.Metricas.Domain.Pessoa</Class>
+    <Assembly>FM.Metricas.Domain</Assembly>
+    <Files>
+      <File>A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.Domain\Pessoa.cs</File>
+    </Files>
+    <Coveredlines>7</Coveredlines>
+    <Uncoveredlines>1</Uncoveredlines>
+    <Coverablelines>8</Coverablelines>
+    <Totallines>17</Totallines>
+    <Linecoverage>87.5%</Linecoverage>
+  </Summary>
+  <Metrics>
+    <CalcularSalario>
+      <Cyclomaticcomplexity>1</Cyclomaticcomplexity>
+      <NPathcomplexity>0</NPathcomplexity>
+      <Sequencecoverage>100</Sequencecoverage>
+      <Branchcoverage>100</Branchcoverage>
+    </CalcularSalario>
+  </Metrics>
+  <Files>
+    <File name="A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.Domain\Pessoa.cs">
+      <LineAnalysis line="1" visits="-1" coverage="NotCoverable" coveredbranches="" totalbranches="" content="namespace FM.Metricas.Domain" />
+      <LineAnalysis line="2" visits="-1" coverage="NotCoverable" coveredbranches="" totalbranches="" content="{" />
+      <LineAnalysis line="3" visits="-1" coverage="NotCoverable" coveredbranches="" totalbranches="" content="    public class Pessoa" />
+      <LineAnalysis line="4" visits="-1" coverage="NotCoverable" coveredbranches="" totalbranches="" content="    {" />
+      <LineAnalysis line="5" visits="0" coverage="NotCovered" coveredbranches="" totalbranches="" content="        public string Nome { get; set; }" />
+      <LineAnalysis line="6" visits="2" coverage="Covered" coveredbranches="" totalbranches="" content="        public string Sobrenome { get; set; }" />
+      <LineAnalysis line="7" visits="2" coverage="Covered" coveredbranches="" totalbranches="" content="        public string Telefone { get; set; }" />
+      <LineAnalysis line="8" visits="2" coverage="Covered" coveredbranches="" totalbranches="" content="        public double Salario { get; set; }" />
+      <LineAnalysis line="9" visits="6" coverage="Covered" coveredbranches="" totalbranches="" content="" />
+      <LineAnalysis line="10" visits="-1" coverage="NotCoverable" coveredbranches="" totalbranches="" content="" />
+      <LineAnalysis line="11" visits="-1" coverage="NotCoverable" coveredbranches="" totalbranches="" content="        public void CalcularSalario()" />
+      <LineAnalysis line="12" visits="-1" coverage="NotCoverable" coveredbranches="" totalbranches="" content="        {" />
+      <LineAnalysis line="13" visits="2" coverage="Covered" coveredbranches="" totalbranches="" content="            this.Salario = this.Salario * 0.10;" />
+      <LineAnalysis line="14" visits="2" coverage="Covered" coveredbranches="" totalbranches="" content="        }" />
+      <LineAnalysis line="15" visits="2" coverage="Covered" coveredbranches="" totalbranches="" content="    }" />
+      <LineAnalysis line="16" visits="-1" coverage="NotCoverable" coveredbranches="" totalbranches="" content="" />
+      <LineAnalysis line="17" visits="-1" coverage="NotCoverable" coveredbranches="" totalbranches="" content="}" />
+    </File>
+  </Files>
+</CoverageReport>

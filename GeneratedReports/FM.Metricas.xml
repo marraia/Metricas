@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="30" visitedSequencePoints="25" numBranchPoints="22" visitedBranchPoints="17" sequenceCoverage="83.33" branchCoverage="77.27" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="3" numClasses="3" visitedMethods="15" numMethods="20" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="31-EE-36-50-10-5C-79-36-FD-D4-60-AE-37-54-84-07-84-85-A5-53">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2018-01-17T17:08:25.571058Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="22-08-2D-6F-91-93-4F-1E-79-9F-AB-B3-63-3D-0C-5D-0A-C8-2C-0D">
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\packages\xunit.runner.console.2.3.1\tools\net452\xunit.console.x86.exe</ModulePath>
+      <ModuleTime>2017-10-27T07:34:48Z</ModuleTime>
+      <ModuleName>xunit.console.x86</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-D8-3E-87-AB-33-CA-6F-66-61-A7-D7-50-2C-CF-D9-C0-D1-9D-8D">
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\packages\xunit.runner.console.2.3.1\tools\net452\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-10-27T07:34:48Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="90-BC-BE-B1-F2-84-BE-8F-78-5C-FB-A6-E3-66-B7-C7-F8-58-AF-D1">
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\packages\xunit.runner.console.2.3.1\tools\net452\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-10-27T07:34:48Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="00-E4-8B-23-28-1E-7A-F6-0F-D2-F5-0F-0B-97-50-BC-55-63-B2-9D">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-01-17T17:08:48.8990565Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AF-CB-39-96-5C-64-99-49-A5-B6-10-16-01-7E-5D-4D-D6-EC-C7-32">
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\packages\xunit.runner.console.2.3.1\tools\net452\xunit.runner.reporters.net452.dll</ModulePath>
+      <ModuleTime>2017-10-27T07:34:48Z</ModuleTime>
+      <ModuleName>xunit.runner.reporters.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1E-BF-87-A2-61-B1-E2-B3-03-13-4A-72-15-75-13-FB-FE-2C-7E-57">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:06.8185861Z</ModuleTime>
+      <ModuleName>System.Net.Http</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CB-7B-C7-A0-09-0F-BA-F4-8A-02-A9-E9-2A-7B-43-34-93-46-0F-58">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:06.7717063Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5C-70-ED-9E-9B-8A-F9-7F-CA-3E-6E-C3-03-97-8B-11-97-6C-57-A0">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2018-01-17T17:08:26.0241789Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1B-AE-C2-76-9D-2A-1A-E1-82-F0-BE-A5-E5-E9-C6-CF-98-96-FA-46">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_pt-BR_b77a5c561934e089\mscorlib.resources.dll</ModulePath>
+      <ModuleTime>2017-09-30T14:34:07.1707541Z</ModuleTime>
+      <ModuleName>mscorlib.resources</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="62-13-DF-BA-4D-76-38-3A-FE-E9-5E-D8-6C-07-CC-1D-A2-DE-73-52">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:06.6154445Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="58-2A-4C-0C-25-69-3C-E5-E8-8F-0E-35-DB-19-D0-78-0E-D1-10-FA">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2017-12-22T03:10:39.7166266Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="43-2E-6A-4E-42-C5-B5-A0-58-83-1D-BD-1D-A2-A9-F8-DD-95-24-D4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:08.1155667Z</ModuleTime>
+      <ModuleName>System.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-D8-3E-87-AB-33-CA-6F-66-61-A7-D7-50-2C-CF-D9-C0-D1-9D-8D">
+      <ModulePath>C:\Users\fmendes\AppData\Local\Temp\536016b1-3ef5-44c8-b675-8a369eeebd3a\536016b1-3ef5-44c8-b675-8a369eeebd3a\assembly\dl3\2f36b37f\005c1e11_f64ed301\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2018-03-06T17:50:10.7482654Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="00-E4-8B-23-28-1E-7A-F6-0F-D2-F5-0F-0B-97-50-BC-55-63-B2-9D">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-01-17T17:08:48.8990565Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CB-7B-C7-A0-09-0F-BA-F4-8A-02-A9-E9-2A-7B-43-34-93-46-0F-58">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:06.7717063Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="41-04-97-CC-27-9F-F9-5A-B4-8B-0F-64-26-A8-C1-B6-E5-69-C9-89">
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.UnitTest\bin\Debug\FM.Metricas.UnitTest.dll</ModulePath>
+      <ModuleTime>2018-03-06T17:46:54.9282048Z</ModuleTime>
+      <ModuleName>FM.Metricas.UnitTest</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-D8-3E-87-AB-33-CA-6F-66-61-A7-D7-50-2C-CF-D9-C0-D1-9D-8D">
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\packages\xunit.runner.console.2.3.1\tools\net452\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-10-27T07:34:48Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="61-48-84-C2-D1-D5-99-D6-62-AF-99-DC-EE-36-8C-D2-C9-20-16-EB">
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.UnitTest\bin\Debug\xunit.execution.desktop.dll</ModulePath>
+      <ModuleTime>2017-10-27T07:34:44Z</ModuleTime>
+      <ModuleName>xunit.execution.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="51-2F-F2-32-94-DA-C0-F3-A5-F2-A6-46-6A-26-C0-33-1A-24-08-E8">
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.UnitTest\bin\Debug\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2017-10-27T07:35:08Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CB-7B-C7-A0-09-0F-BA-F4-8A-02-A9-E9-2A-7B-43-34-93-46-0F-58">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:06.7717063Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="41-04-97-CC-27-9F-F9-5A-B4-8B-0F-64-26-A8-C1-B6-E5-69-C9-89">
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.UnitTest\bin\Debug\FM.Metricas.UnitTest.dll</ModulePath>
+      <ModuleTime>2018-03-06T17:46:54.9282048Z</ModuleTime>
+      <ModuleName>FM.Metricas.UnitTest</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7E-02-2C-90-E6-C9-70-2C-FC-98-47-42-E2-71-EB-BB-E0-74-01-82">
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.UnitTest\bin\Debug\xunit.runner.utility.net452.dll</ModulePath>
+      <ModuleTime>2017-10-27T07:35:10Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.net452</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="22-08-2D-6F-91-93-4F-1E-79-9F-AB-B3-63-3D-0C-5D-0A-C8-2C-0D">
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\packages\xunit.runner.console.2.3.1\tools\net452\xunit.console.x86.exe</ModulePath>
+      <ModuleTime>2017-10-27T07:34:48Z</ModuleTime>
+      <ModuleName>xunit.console.x86</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="00-E4-8B-23-28-1E-7A-F6-0F-D2-F5-0F-0B-97-50-BC-55-63-B2-9D">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-01-17T17:08:48.8990565Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A9-2D-37-71-85-86-25-78-29-7F-26-79-55-A6-E5-61-80-28-93-5F">
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.UnitTest\bin\Debug\xunit.core.dll</ModulePath>
+      <ModuleTime>2017-10-27T07:34:40Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3B-8E-DA-68-AF-09-5C-45-40-48-7B-6A-94-0C-04-C0-1A-CC-E4-17">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:06.8185861Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DB-77-50-FA-47-4E-59-59-A5-0A-50-19-2F-06-4B-B3-B1-74-61-AB">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:05.2872104Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B8-80-E6-57-21-F6-EC-4D-8B-82-EB-25-D9-79-1A-57-B9-34-1C-02">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:09.6469357Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="47-17-03-AC-58-35-C5-51-69-A7-F8-C9-B0-D4-35-BF-ED-B6-62-98">
+      <Summary numSequencePoints="17" visitedSequencePoints="17" numBranchPoints="11" visitedBranchPoints="11" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="2" numClasses="2" visitedMethods="9" numMethods="9" />
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.UnitTest\bin\Debug\FM.Metricas.Application.dll</ModulePath>
+      <ModuleTime>2018-03-06T16:12:29.7117191Z</ModuleTime>
+      <ModuleName>FM.Metricas.Application</ModuleName>
+      <Files>
+        <File uid="1" fullPath="A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.Application\PessoaAppService.cs" />
+        <File uid="2" fullPath="A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.Application\Input\PessoaInput.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>FM.Metricas.Application.PessoaAppService</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Double FM.Metricas.Application.PessoaAppService::VerificarSalario(FM.Metricas.Application.Input.PessoaInput)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="1" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="2" ordinal="1" offset="1" sl="10" sc="13" el="16" ec="15" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="3" ordinal="2" offset="59" sl="18" sc="13" el="18" ec="38" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="4" ordinal="3" offset="66" sl="20" sc="13" el="20" ec="36" bec="2" bev="2" fileid="1" />
+                <SequencePoint vc="1" uspid="5" ordinal="4" offset="87" sl="21" sc="13" el="21" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="6" ordinal="5" offset="88" sl="22" sc="17" el="22" ec="35" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="7" ordinal="6" offset="104" sl="23" sc="13" el="23" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="8" ordinal="7" offset="105" sl="25" sc="13" el="25" ec="32" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="9" ordinal="8" offset="114" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="10" ordinal="0" offset="85" sl="20" path="0" offsetend="87" fileid="1" />
+                <BranchPoint vc="1" uspid="11" ordinal="1" offset="85" sl="20" path="1" offsetend="105" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="1" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void FM.Metricas.Application.PessoaAppService::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="12" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="8" visitedBranchPoints="8" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="8" numMethods="8" />
+          <FullName>FM.Metricas.Application.Input.PessoaInput</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.String FM.Metricas.Application.Input.PessoaInput::get_Nome()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="13" ordinal="0" offset="0" sl="9" sc="30" el="9" ec="34" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="13" ordinal="0" offset="0" sl="9" sc="30" el="9" ec="34" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void FM.Metricas.Application.Input.PessoaInput::set_Nome(System.String)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="14" ordinal="0" offset="0" sl="9" sc="35" el="9" ec="39" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="14" ordinal="0" offset="0" sl="9" sc="35" el="9" ec="39" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.String FM.Metricas.Application.Input.PessoaInput::get_Sobrenome()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="15" ordinal="0" offset="0" sl="10" sc="35" el="10" ec="39" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="15" ordinal="0" offset="0" sl="10" sc="35" el="10" ec="39" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void FM.Metricas.Application.Input.PessoaInput::set_Sobrenome(System.String)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="16" ordinal="0" offset="0" sl="10" sc="40" el="10" ec="44" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="16" ordinal="0" offset="0" sl="10" sc="40" el="10" ec="44" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.String FM.Metricas.Application.Input.PessoaInput::get_Telefone()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="17" ordinal="0" offset="0" sl="11" sc="34" el="11" ec="38" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="17" ordinal="0" offset="0" sl="11" sc="34" el="11" ec="38" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void FM.Metricas.Application.Input.PessoaInput::set_Telefone(System.String)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="18" ordinal="0" offset="0" sl="11" sc="39" el="11" ec="43" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="18" ordinal="0" offset="0" sl="11" sc="39" el="11" ec="43" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Double FM.Metricas.Application.Input.PessoaInput::get_Salario()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="19" ordinal="0" offset="0" sl="12" sc="33" el="12" ec="37" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="19" ordinal="0" offset="0" sl="12" sc="33" el="12" ec="37" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void FM.Metricas.Application.Input.PessoaInput::set_Salario(System.Double)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="20" ordinal="0" offset="0" sl="12" sc="38" el="12" ec="42" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="20" ordinal="0" offset="0" sl="12" sc="38" el="12" ec="42" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void FM.Metricas.Application.Input.PessoaInput::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="21" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="BF-E5-4F-FE-CF-53-6A-47-B3-9C-83-FA-80-22-8A-DC-19-81-A7-C4">
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.UnitTest\bin\Debug\xunit.assert.dll</ModulePath>
+      <ModuleTime>2017-10-27T07:34:24Z</ModuleTime>
+      <ModuleName>xunit.assert</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="9B-9A-89-6B-16-A6-CD-49-F7-E3-DA-6C-FB-52-C9-4F-ED-B6-91-BD">
+      <Summary numSequencePoints="13" visitedSequencePoints="8" numBranchPoints="11" visitedBranchPoints="6" sequenceCoverage="61.54" branchCoverage="54.55" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="11" />
+      <ModulePath>A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.UnitTest\bin\Debug\FM.Metricas.Domain.dll</ModulePath>
+      <ModuleTime>2018-03-06T16:12:29.5913933Z</ModuleTime>
+      <ModuleName>FM.Metricas.Domain</ModuleName>
+      <Files>
+        <File uid="5" fullPath="A:\Pessoal\Estudos\FM.Metricas\FM.Metricas.Domain\Pessoa.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="13" visitedSequencePoints="8" numBranchPoints="11" visitedBranchPoints="6" sequenceCoverage="61.54" branchCoverage="54.55" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="11" />
+          <FullName>FM.Metricas.Domain.Pessoa</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Int32 FM.Metricas.Domain.Pessoa::get_Id()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="22" ordinal="0" offset="0" sl="5" sc="25" el="5" ec="29" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="22" ordinal="0" offset="0" sl="5" sc="25" el="5" ec="29" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void FM.Metricas.Domain.Pessoa::set_Id(System.Int32)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="23" ordinal="0" offset="0" sl="5" sc="30" el="5" ec="34" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="23" ordinal="0" offset="0" sl="5" sc="30" el="5" ec="34" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.String FM.Metricas.Domain.Pessoa::get_Nome()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="24" ordinal="0" offset="0" sl="6" sc="30" el="6" ec="34" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="24" ordinal="0" offset="0" sl="6" sc="30" el="6" ec="34" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void FM.Metricas.Domain.Pessoa::set_Nome(System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="25" ordinal="0" offset="0" sl="6" sc="35" el="6" ec="39" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="25" ordinal="0" offset="0" sl="6" sc="35" el="6" ec="39" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.String FM.Metricas.Domain.Pessoa::get_Sobrenome()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="26" ordinal="0" offset="0" sl="7" sc="35" el="7" ec="39" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="26" ordinal="0" offset="0" sl="7" sc="35" el="7" ec="39" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void FM.Metricas.Domain.Pessoa::set_Sobrenome(System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="27" ordinal="0" offset="0" sl="7" sc="40" el="7" ec="44" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="27" ordinal="0" offset="0" sl="7" sc="40" el="7" ec="44" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.String FM.Metricas.Domain.Pessoa::get_Telefone()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="28" ordinal="0" offset="0" sl="8" sc="34" el="8" ec="38" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="28" ordinal="0" offset="0" sl="8" sc="34" el="8" ec="38" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void FM.Metricas.Domain.Pessoa::set_Telefone(System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="29" ordinal="0" offset="0" sl="8" sc="39" el="8" ec="43" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="29" ordinal="0" offset="0" sl="8" sc="39" el="8" ec="43" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Double FM.Metricas.Domain.Pessoa::get_Salario()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="30" ordinal="0" offset="0" sl="9" sc="33" el="9" ec="37" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="30" ordinal="0" offset="0" sl="9" sc="33" el="9" ec="37" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void FM.Metricas.Domain.Pessoa::set_Salario(System.Double)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="31" ordinal="0" offset="0" sl="9" sc="38" el="9" ec="42" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="31" ordinal="0" offset="0" sl="9" sc="38" el="9" ec="42" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void FM.Metricas.Domain.Pessoa::CalcularSalario()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="32" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="2" uspid="33" ordinal="1" offset="1" sl="14" sc="13" el="14" ec="48" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="2" uspid="34" ordinal="2" offset="24" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="32" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void FM.Metricas.Domain.Pessoa::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="35" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="70-39-A5-19-7D-90-69-AE-4C-64-21-B1-F5-5C-59-52-3F-14-71-CF">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2017-09-29T13:43:05.3340897Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>
